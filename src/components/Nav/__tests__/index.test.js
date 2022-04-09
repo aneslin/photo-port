@@ -18,6 +18,8 @@ describe("Nav component", () => {
         categories={categories}
         setCurrentCategory={mockSetCurrentCategory}
         currentCategory={mockCurrentCategory}
+        contactSelected={mockContactSelected}
+    setContactSelected={mockSetContactSelected}
       />
     );
   });
@@ -28,6 +30,8 @@ describe("Nav component", () => {
         categories={categories}
         setCurrentCategory={mockSetCurrentCategory}
         currentCategory={mockCurrentCategory}
+        contactSelected={mockContactSelected}
+    setContactSelected={mockSetContactSelected}
       />
     );
 
@@ -42,6 +46,8 @@ describe("emoji is visible", () => {
         categories={categories}
         setCurrentCategory={mockSetCurrentCategory}
         currentCategory={mockCurrentCategory}
+        contactSelected={mockContactSelected}
+    setContactSelected={mockSetContactSelected}
       />
     );
 
@@ -56,6 +62,8 @@ describe("links are visible", () => {
         categories={categories}
         setCurrentCategory={mockSetCurrentCategory}
         currentCategory={mockCurrentCategory}
+        contactSelected={mockContactSelected}
+    setContactSelected={mockSetContactSelected}
       />
     );
 
